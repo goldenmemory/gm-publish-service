@@ -4,6 +4,9 @@ language:
 jdk:
   - oraclejdk8
 
+services:
+  - docker
+  
 script: 
   - ./auto/authentication
   - ./auto/build
